@@ -18,6 +18,8 @@
 		3704585F27BA38FF0000A7D2 /* Computer_Club_BookingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3704585E27BA38FF0000A7D2 /* Computer_Club_BookingUITestsLaunchTests.swift */; };
 		3704586D27BA391A0000A7D2 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3704586C27BA391A0000A7D2 /* SnapKit */; };
 		3704587027BA39330000A7D2 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3704586F27BA39330000A7D2 /* Alamofire */; };
+		372D302227BA3C86005FB07D /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372D302027BA3C86005FB07D /* SideMenuViewController.swift */; };
+		372D302327BA3C86005FB07D /* SideMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 372D302127BA3C86005FB07D /* SideMenuViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		3704585827BA38FF0000A7D2 /* Computer Club BookingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Computer Club BookingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3704585C27BA38FF0000A7D2 /* Computer_Club_BookingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Computer_Club_BookingUITests.swift; sourceTree = "<group>"; };
 		3704585E27BA38FF0000A7D2 /* Computer_Club_BookingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Computer_Club_BookingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		372D302027BA3C86005FB07D /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		372D302127BA3C86005FB07D /* SideMenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SideMenuViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +211,8 @@
 		3704587A27BA3AC30000A7D2 /* Side Menu */ = {
 			isa = PBXGroup;
 			children = (
+				372D302027BA3C86005FB07D /* SideMenuViewController.swift */,
+				372D302127BA3C86005FB07D /* SideMenuViewController.xib */,
 			);
 			path = "Side Menu";
 			sourceTree = "<group>";
@@ -323,6 +329,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				372D302327BA3C86005FB07D /* SideMenuViewController.xib in Resources */,
 				3704584827BA38FF0000A7D2 /* LaunchScreen.storyboard in Resources */,
 				3704584527BA38FF0000A7D2 /* Assets.xcassets in Resources */,
 				3704584327BA38FD0000A7D2 /* Main.storyboard in Resources */,
@@ -350,6 +357,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				372D302227BA3C86005FB07D /* SideMenuViewController.swift in Sources */,
 				3704584027BA38FD0000A7D2 /* MainViewController.swift in Sources */,
 				3704583C27BA38FD0000A7D2 /* AppDelegate.swift in Sources */,
 				3704583E27BA38FD0000A7D2 /* SceneDelegate.swift in Sources */,
