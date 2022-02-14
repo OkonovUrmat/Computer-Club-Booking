@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		372D303827BA48AE005FB07D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372D303727BA48AE005FB07D /* AppDelegate.swift */; };
+		372D303A27BA48AE005FB07D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372D303927BA48AE005FB07D /* SceneDelegate.swift */; };
+		372D303C27BA48AE005FB07D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372D303B27BA48AE005FB07D /* ViewController.swift */; };
+		372D303F27BA48AE005FB07D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 372D303D27BA48AE005FB07D /* Main.storyboard */; };
+		372D304127BA48B0005FB07D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372D304027BA48B0005FB07D /* Assets.xcassets */; };
+		372D304427BA48B0005FB07D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 372D304227BA48B0005FB07D /* LaunchScreen.storyboard */; };
+		372D304F27BA48B0005FB07D /* Computer_Club_BookingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372D304E27BA48B0005FB07D /* Computer_Club_BookingTests.swift */; };
+		372D305927BA48B0005FB07D /* Computer_Club_BookingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372D305827BA48B0005FB07D /* Computer_Club_BookingUITests.swift */; };
+		372D305B27BA48B0005FB07D /* Computer_Club_BookingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372D305A27BA48B0005FB07D /* Computer_Club_BookingUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		372D304B27BA48B0005FB07D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 372D302C27BA48AE005FB07D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 372D303327BA48AE005FB07D;
+			remoteInfo = "Computer Club Booking";
+		};
+		372D305527BA48B0005FB07D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 372D302C27BA48AE005FB07D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 372D303327BA48AE005FB07D;
+			remoteInfo = "Computer Club Booking";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		372D303427BA48AE005FB07D /* Computer Club Booking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Computer Club Booking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		372D303727BA48AE005FB07D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		372D303927BA48AE005FB07D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		372D303B27BA48AE005FB07D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		372D303E27BA48AE005FB07D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		372D304027BA48B0005FB07D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		372D304327BA48B0005FB07D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		372D304527BA48B0005FB07D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		372D304A27BA48B0005FB07D /* Computer Club BookingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Computer Club BookingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		372D304E27BA48B0005FB07D /* Computer_Club_BookingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Computer_Club_BookingTests.swift; sourceTree = "<group>"; };
+		372D305427BA48B0005FB07D /* Computer Club BookingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Computer Club BookingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		372D305827BA48B0005FB07D /* Computer_Club_BookingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Computer_Club_BookingUITests.swift; sourceTree = "<group>"; };
+		372D305A27BA48B0005FB07D /* Computer_Club_BookingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Computer_Club_BookingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		372D303127BA48AE005FB07D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		372D304727BA48B0005FB07D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		372D305127BA48B0005FB07D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		372D302B27BA48AE005FB07D = {
+			isa = PBXGroup;
+			children = (
+				372D303627BA48AE005FB07D /* Computer Club Booking */,
+				372D304D27BA48B0005FB07D /* Computer Club BookingTests */,
+				372D305727BA48B0005FB07D /* Computer Club BookingUITests */,
+				372D303527BA48AE005FB07D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		372D303527BA48AE005FB07D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				372D303427BA48AE005FB07D /* Computer Club Booking.app */,
+				372D304A27BA48B0005FB07D /* Computer Club BookingTests.xctest */,
+				372D305427BA48B0005FB07D /* Computer Club BookingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		372D303627BA48AE005FB07D /* Computer Club Booking */ = {
+			isa = PBXGroup;
+			children = (
+				372D303727BA48AE005FB07D /* AppDelegate.swift */,
+				372D303927BA48AE005FB07D /* SceneDelegate.swift */,
+				372D303B27BA48AE005FB07D /* ViewController.swift */,
+				372D303D27BA48AE005FB07D /* Main.storyboard */,
+				372D304027BA48B0005FB07D /* Assets.xcassets */,
+				372D304227BA48B0005FB07D /* LaunchScreen.storyboard */,
+				372D304527BA48B0005FB07D /* Info.plist */,
+			);
+			path = "Computer Club Booking";
+			sourceTree = "<group>";
+		};
+		372D304D27BA48B0005FB07D /* Computer Club BookingTests */ = {
+			isa = PBXGroup;
+			children = (
+				372D304E27BA48B0005FB07D /* Computer_Club_BookingTests.swift */,
+			);
+			path = "Computer Club BookingTests";
+			sourceTree = "<group>";
+		};
+		372D305727BA48B0005FB07D /* Computer Club BookingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				372D305827BA48B0005FB07D /* Computer_Club_BookingUITests.swift */,
+				372D305A27BA48B0005FB07D /* Computer_Club_BookingUITestsLaunchTests.swift */,
+			);
+			path = "Computer Club BookingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		372D303327BA48AE005FB07D /* Computer Club Booking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 372D305E27BA48B0005FB07D /* Build configuration list for PBXNativeTarget "Computer Club Booking" */;
+			buildPhases = (
+				372D303027BA48AE005FB07D /* Sources */,
+				372D303127BA48AE005FB07D /* Frameworks */,
+				372D303227BA48AE005FB07D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Computer Club Booking";
+			productName = "Computer Club Booking";
+			productReference = 372D303427BA48AE005FB07D /* Computer Club Booking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		372D304927BA48B0005FB07D /* Computer Club BookingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 372D306127BA48B0005FB07D /* Build configuration list for PBXNativeTarget "Computer Club BookingTests" */;
+			buildPhases = (
+				372D304627BA48B0005FB07D /* Sources */,
+				372D304727BA48B0005FB07D /* Frameworks */,
+				372D304827BA48B0005FB07D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				372D304C27BA48B0005FB07D /* PBXTargetDependency */,
+			);
+			name = "Computer Club BookingTests";
+			productName = "Computer Club BookingTests";
+			productReference = 372D304A27BA48B0005FB07D /* Computer Club BookingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		372D305327BA48B0005FB07D /* Computer Club BookingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 372D306427BA48B0005FB07D /* Build configuration list for PBXNativeTarget "Computer Club BookingUITests" */;
+			buildPhases = (
+				372D305027BA48B0005FB07D /* Sources */,
+				372D305127BA48B0005FB07D /* Frameworks */,
+				372D305227BA48B0005FB07D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				372D305627BA48B0005FB07D /* PBXTargetDependency */,
+			);
+			name = "Computer Club BookingUITests";
+			productName = "Computer Club BookingUITests";
+			productReference = 372D305427BA48B0005FB07D /* Computer Club BookingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		372D302C27BA48AE005FB07D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					372D303327BA48AE005FB07D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					372D304927BA48B0005FB07D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 372D303327BA48AE005FB07D;
+					};
+					372D305327BA48B0005FB07D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 372D303327BA48AE005FB07D;
+					};
+				};
+			};
+			buildConfigurationList = 372D302F27BA48AE005FB07D /* Build configuration list for PBXProject "Computer Club Booking" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 372D302B27BA48AE005FB07D;
+			productRefGroup = 372D303527BA48AE005FB07D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				372D303327BA48AE005FB07D /* Computer Club Booking */,
+				372D304927BA48B0005FB07D /* Computer Club BookingTests */,
+				372D305327BA48B0005FB07D /* Computer Club BookingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		372D303227BA48AE005FB07D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372D304427BA48B0005FB07D /* LaunchScreen.storyboard in Resources */,
+				372D304127BA48B0005FB07D /* Assets.xcassets in Resources */,
+				372D303F27BA48AE005FB07D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		372D304827BA48B0005FB07D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		372D305227BA48B0005FB07D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		372D303027BA48AE005FB07D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372D303C27BA48AE005FB07D /* ViewController.swift in Sources */,
+				372D303827BA48AE005FB07D /* AppDelegate.swift in Sources */,
+				372D303A27BA48AE005FB07D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		372D304627BA48B0005FB07D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372D304F27BA48B0005FB07D /* Computer_Club_BookingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		372D305027BA48B0005FB07D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372D305927BA48B0005FB07D /* Computer_Club_BookingUITests.swift in Sources */,
+				372D305B27BA48B0005FB07D /* Computer_Club_BookingUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		372D304C27BA48B0005FB07D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 372D303327BA48AE005FB07D /* Computer Club Booking */;
+			targetProxy = 372D304B27BA48B0005FB07D /* PBXContainerItemProxy */;
+		};
+		372D305627BA48B0005FB07D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 372D303327BA48AE005FB07D /* Computer Club Booking */;
+			targetProxy = 372D305527BA48B0005FB07D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		372D303D27BA48AE005FB07D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				372D303E27BA48AE005FB07D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		372D304227BA48B0005FB07D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				372D304327BA48B0005FB07D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		372D305C27BA48B0005FB07D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		372D305D27BA48B0005FB07D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		372D305F27BA48B0005FB07D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RW77ZW8HLL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Computer Club Booking/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Urmat.Computer-Club-Booking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		372D306027BA48B0005FB07D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RW77ZW8HLL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Computer Club Booking/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Urmat.Computer-Club-Booking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		372D306227BA48B0005FB07D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RW77ZW8HLL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Urmat.Computer-Club-BookingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Computer Club Booking.app/Computer Club Booking";
+			};
+			name = Debug;
+		};
+		372D306327BA48B0005FB07D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RW77ZW8HLL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Urmat.Computer-Club-BookingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Computer Club Booking.app/Computer Club Booking";
+			};
+			name = Release;
+		};
+		372D306527BA48B0005FB07D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RW77ZW8HLL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Urmat.Computer-Club-BookingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Computer Club Booking";
+			};
+			name = Debug;
+		};
+		372D306627BA48B0005FB07D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RW77ZW8HLL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Urmat.Computer-Club-BookingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Computer Club Booking";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		372D302F27BA48AE005FB07D /* Build configuration list for PBXProject "Computer Club Booking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372D305C27BA48B0005FB07D /* Debug */,
+				372D305D27BA48B0005FB07D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		372D305E27BA48B0005FB07D /* Build configuration list for PBXNativeTarget "Computer Club Booking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372D305F27BA48B0005FB07D /* Debug */,
+				372D306027BA48B0005FB07D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		372D306127BA48B0005FB07D /* Build configuration list for PBXNativeTarget "Computer Club BookingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372D306227BA48B0005FB07D /* Debug */,
+				372D306327BA48B0005FB07D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		372D306427BA48B0005FB07D /* Build configuration list for PBXNativeTarget "Computer Club BookingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372D306527BA48B0005FB07D /* Debug */,
+				372D306627BA48B0005FB07D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 372D302C27BA48AE005FB07D /* Project object */;
+}
